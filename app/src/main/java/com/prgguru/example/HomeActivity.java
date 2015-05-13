@@ -5,6 +5,7 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -20,9 +21,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeActivity extends Activity {
-	TextView msgET, usertitleET;
-    ListView lv;
-    String str = "";
+	TextView usertitleET;
+
 
 	private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
 
@@ -31,8 +31,8 @@ public class HomeActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
 
-		// Intent Message sent from Broadcast Receiver
-		str = getIntent().getStringExtra("msg");
+        // Intent Message sent from Broadcast Receiver
+
 
 		// Get Email ID from Shared preferences
 		SharedPreferences prefs = getSharedPreferences("UserDetails",
@@ -40,10 +40,11 @@ public class HomeActivity extends Activity {
 		String eMailId = prefs.getString("eMailId", "");
 		// Set Title
 		usertitleET = (TextView) findViewById(R.id.usertitle);
-        msgET = (TextView)findViewById(R.id.message);
 
-        List list = new ArrayList<String>();
-        lv = (ListView)findViewById(R.id.listView);
+
+
+
+
 
 
 
@@ -57,22 +58,8 @@ public class HomeActivity extends Activity {
 		
 		usertitleET.setText("Hello " + eMailId + " !");
 		// When Message sent from Broadcase Receiver is not empty
-		if (str != null) {
 
-            list.add(str);
-            msgET.setText(str);
-		}
 
-        ListAdapter adapter = new ArrayAdapter(getApplicationContext(), R.layout.simple_list_item_1, list);
-        lv.setAdapter(adapter);
-
-        lv.setOnItemClickListener(new OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), "Clicked on Item " + position, Toast.LENGTH_SHORT).show();
-            }
-        });
 	}
 
 	private boolean checkPlayServices() {
@@ -103,13 +90,12 @@ public class HomeActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 		checkPlayServices();
-        msgET.setText(str+"test");
+
 	}
 
     protected void onDestroy(){
         super.onDestroy();
 
-        str = msgET.getText().toString();
 
 
     }

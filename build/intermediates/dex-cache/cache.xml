@@ -30,25 +30,11 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-aaddf73a06f17c75b9f6697a91c2cc548d299a03.jar" />
     </item>
     <item
-        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-4fa3525d9ec550c8f11ce8e87217c91e2a28a99e.jar" />
-    </item>
-    <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-a3214d9fa82e391a15f3dfffa28731b6f42a7e2e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Stefan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-9d78c6d3ea92dd350baebee8cc852e1afd3df60c.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\classes.jar"
@@ -65,32 +51,11 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-1574ffea58eba292c91188b67a1aa6f6648ed9c4.jar" />
     </item>
     <item
-        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-1ebd6c0bc8d6ea30444cb5d3679587b100f11a21.jar" />
-    </item>
-    <item
-        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-dddcbd7e809c07b56cd80625452b3dcf00022fd2.jar" />
-    </item>
-    <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-a39f8347469c220c020c63ba606fdff6eb1132a2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-2a56029ed1b31d9e582167f3f9ec48ba22e18e53.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\classes.jar"
@@ -100,32 +65,11 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-918a0dabbf61c7a9729cfd5702fc8073137cfaca.jar" />
     </item>
     <item
-        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-dec9bd4e2c0622a1cb2e60d1fa29ddcf43076fe7.jar" />
-    </item>
-    <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-586fecc4d4929da63eb11d2665822873e1e973fa.jar" />
-    </item>
-    <item
-        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="565a01f90f1529f73362707c4c185d0623a68782">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-8e5608f3286479d5cd541b5e64a7528cacc542ff.jar" />
-    </item>
-    <item
-        jar="C:\Users\Stefan\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
-        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-4cbe5bcfa6f123386956b2c6414f8ae8ac24ff45.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
@@ -168,6 +112,55 @@
         revision="22.0.1"
         sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-2213cbacd0172a6d0843e71dbd608bf4c4411f3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-4fa3525d9ec550c8f11ce8e87217c91e2a28a99e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-9d78c6d3ea92dd350baebee8cc852e1afd3df60c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-1ebd6c0bc8d6ea30444cb5d3679587b100f11a21.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-dddcbd7e809c07b56cd80625452b3dcf00022fd2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-2a56029ed1b31d9e582167f3f9ec48ba22e18e53.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-dec9bd4e2c0622a1cb2e60d1fa29ddcf43076fe7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-8e5608f3286479d5cd541b5e64a7528cacc542ff.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\classes.jar"
