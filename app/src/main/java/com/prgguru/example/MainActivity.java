@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -123,21 +124,25 @@ public class MainActivity extends Activity {
 		editor.putString(REG_ID, regId);
 		editor.putString(EMAIL_ID, emailID);
 		editor.commit();
-		storeRegIdinServer();
+		storeRegIdinServer(emailID);
 
 	}
 
-	private void storeRegIdinServer() {
+	private void storeRegIdinServer(String emailID) {
 		prgDialog.show();
 		params.put("regId", regId);
+        params.put("username", emailID);
+        Log.d("CheckID",emailID);
+        Log.d("CheckID",regId);
 		// Make RESTful webservice call using AsyncHttpClient object
 		AsyncHttpClient client = new AsyncHttpClient();
 		client.post(ApplicationConstants.APP_SERVER_URL, params,
 				new AsyncHttpResponseHandler() {
-					// When the response returned by REST has Http
-					// response code '200'
+
 					@Override
 					public void onSuccess(String response) {
+
+                        Log.d("CheckID","Success");
 						// Hide Progress Dialog
 						prgDialog.hide();
 						if (prgDialog != null) {
