@@ -35,7 +35,7 @@
         
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" android:noHistory="true">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,13 +48,13 @@
         <activity
         android:name="com.prgguru.example.HomeActivity"
         android:configChanges="orientation|keyboardHidden"
-        android:label="@string/app_name" android:noHistory="true">
+        android:label="@string/app_name">
     </activity>
 
         <activity
             android:name=".AlertActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:label="@string/app_name" android:noHistory="true"
+            android:label="@string/app_name"
             android:launchMode="singleTask">
 
         </activity>

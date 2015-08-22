@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
 	public void RegisterUser(View view) {
 		String emailID = emailET.getText().toString();
 
-		if (!TextUtils.isEmpty(emailID) && Utility.validate(emailID)) {
+		if (!TextUtils.isEmpty(emailID)){ //&& Utility.validate(emailID)) {
 			if (checkPlayServices()) {
 				registerInBackground(emailID);
 			}
@@ -136,7 +136,7 @@ public class MainActivity extends Activity {
         Log.d("CheckID",regId);
 		// Make RESTful webservice call using AsyncHttpClient object
 		AsyncHttpClient client = new AsyncHttpClient();
-		client.post(ApplicationConstants.APP_SERVER_URL, params,
+		client.post(ApplicationConstants.APP_SERVER_URL+ApplicationConstants.APP_REGISTER_URL, params,
 				new AsyncHttpResponseHandler() {
 
 					@Override

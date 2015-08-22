@@ -20,17 +20,23 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/linearLayout">
 
+        <TextView
+            android:id="@+id/usertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_title"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/usertitle"
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/user_title"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_centerVertical="true"
+        android:id="@+id/lvtouren"
+        android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

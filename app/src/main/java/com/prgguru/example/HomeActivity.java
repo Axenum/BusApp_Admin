@@ -2,29 +2,60 @@ package com.prgguru.example;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
+import com.google.android.gms.maps.model.LatLng;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.ListFragment;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 public class HomeActivity extends Activity {
+
 	TextView usertitleET;
+    ListView lv;
+    String eMailId;
 
 
-	private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
+
+    private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -37,17 +68,10 @@ public class HomeActivity extends Activity {
 		// Get Email ID from Shared preferences
 		SharedPreferences prefs = getSharedPreferences("UserDetails",
 				Context.MODE_PRIVATE);
-		String eMailId = prefs.getString("eMailId", "");
+		eMailId = prefs.getString("eMailId", "");
 		// Set Title
 		usertitleET = (TextView) findViewById(R.id.usertitle);
-
-
-
-
-
-
-
-
+        lv = (ListView) findViewById(R.id.lvtouren);
 
         if (!checkPlayServices()) {
 			Toast.makeText(
@@ -89,14 +113,175 @@ public class HomeActivity extends Activity {
 	@Override
 	protected void onResume() {
 		super.onResume();
-		checkPlayServices();
+        startTask();
+        checkPlayServices();
 
 	}
 
     protected void onDestroy(){
         super.onDestroy();
 
+    }
 
+    public void startTask(){
+
+        new LoadTours(eMailId).execute();
 
     }
+
+    private JSONArray mTours = null;
+    public ArrayList<HashMap<String, String>> mToursList;
+
+    ListAdapter adapter;
+    private ProgressDialog pDialog;
+
+    private static final String TAG_POSTS = "posts";
+    private static final String TAG_TOUR = "tour";
+    private static final String TAG_DATE = "datum";
+    private static final String TAG_TIME = "time";
+    private static final String TAG_KTIME = "ktime";
+
+
+
+    public class LoadTours extends AsyncTask<Void, Void, Boolean> {
+
+
+
+        String Email;
+
+
+        public LoadTours(String Email) {
+            this.Email = Email;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            pDialog = new ProgressDialog(HomeActivity.this);
+            pDialog.setMessage("Loading Tours...");
+            pDialog.setIndeterminate(false);
+            pDialog.setCancelable(true);
+            pDialog.show();
+        }
+
+        @Override
+        protected Boolean doInBackground(Void... arg0) {
+
+            updateJSONdata(Email);
+
+            return null;
+
+        }
+
+
+        @Override
+        protected void onPostExecute(Boolean result) {
+            super.onPostExecute(result);
+            updateList();
+            pDialog.dismiss();
+        }
+
+
+        }
+
+
+
+        public void updateJSONdata(String email) {
+
+
+            List<NameValuePair> params;
+
+            mToursList = new ArrayList<>();
+            JSONParser jParser = new JSONParser();
+            JSONObject json;
+
+            params = new ArrayList<>();
+            params.add(new BasicNameValuePair("user", email));
+
+            json = jParser.makeHttpRequest("http://allits.de/gcm/getTours.php", "POST", params);
+
+
+
+            try {
+
+
+                mTours = json.getJSONArray(TAG_POSTS);
+
+                // looping through all posts according to the json object returned
+                for (int i = 0; i < mTours.length(); i++) {
+                    JSONObject jsonObject = mTours.getJSONObject(i);
+
+                    //gets the content of each tag
+                    String tour = jsonObject.getString(TAG_TOUR);
+                    String time = jsonObject.getString(TAG_TIME);
+                    String date = jsonObject.getString(TAG_DATE);
+                    String ktime = jsonObject.getString(TAG_KTIME);
+
+
+                    long diffMin = TimeFunction.getTimeDiff(time, ktime);
+
+
+
+
+                    HashMap<String, String> map = new HashMap<>();
+                    map.put(TAG_TOUR, tour);
+                    map.put(TAG_DATE, date);
+                    map.put(TAG_KTIME, diffMin+":00");
+
+                    mToursList.add(map);
+
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+
+        public void updateList() {
+
+
+            pDialog.dismiss();
+
+            adapter = new SimpleAdapter(HomeActivity.this,
+                    mToursList,
+                    R.layout.single_item,
+                    new String[]{TAG_TOUR, TAG_DATE, TAG_KTIME},
+                    new int[]{R.id.txttour, R.id.txtdate, R.id.txtktime
+                    });
+
+            lv = (ListView) findViewById(R.id.lvtouren);
+
+            lv.setAdapter(adapter);
+
+            lv.setOnItemClickListener(new OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view,
+                                        int position, long id) {
+
+                    String ktime = mToursList.get((int)id).get(TAG_KTIME).toString();
+                    String[] pktime = ktime.split(":");
+                    Intent i = new Intent(HomeActivity.this, AlertActivity.class);
+
+                    i.putExtra("tour", mToursList.get((int)id).get(TAG_TOUR).toString());
+                    i.putExtra("datum", mToursList.get((int)id).get(TAG_DATE).toString());
+                    i.putExtra("ktime", pktime[0]);
+
+                    startActivity(i);
+
+
+                }
+
+
+            });
+
+
+        }
 }
+
+
+
+
+
+
