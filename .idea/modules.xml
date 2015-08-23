@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GCMPushNotificationExample1.iml" filepath="$PROJECT_DIR$/GCMPushNotificationExample1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BusApp_Admin.iml" filepath="$PROJECT_DIR$/BusApp_Admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

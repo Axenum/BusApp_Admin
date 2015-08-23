@@ -30,11 +30,53 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-aaddf73a06f17c75b9f6697a91c2cc548d299a03.jar" />
     </item>
     <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-a21aab269bed5a6df44104c8e326823cdd68a2d3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-9ac8feb73b1d73bbbfb5758c3d994ab3c72c5663.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-6d212296bc802ed04f5141b45cf669382a3b1c9b.jar" />
+    </item>
+    <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-a3214d9fa82e391a15f3dfffa28731b6f42a7e2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-e62f9aad7a6df07704c61c65862be24ed71a09f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-792b745e280684b94e2281872ffbea2765e657de.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-8efec3acae3a98c33bd93a147020abe82d600f7f.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\classes.jar"
@@ -65,11 +107,39 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-918a0dabbf61c7a9729cfd5702fc8073137cfaca.jar" />
     </item>
     <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-581dbb1ada79e66cf1d9fff1bf0e0ee2c86a5233.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-725fdd4dfc171cfd0a3bdc589563099238e0d1aa.jar" />
+    </item>
+    <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-586fecc4d4929da63eb11d2665822873e1e973fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-52f95ece83762ba8ab594c974b99f69fb80c054f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-6ed126d249c1d70049dd38474cef6301e9cf177c.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
@@ -107,11 +177,32 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-65e7d8636459354dc41a1f12348152e6d2bdb701.jar" />
     </item>
     <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-1fef7337a574713a27030dc7f2e2b9c3b75d7608.jar" />
+    </item>
+    <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-2213cbacd0172a6d0843e71dbd608bf4c4411f3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-2bcbdd9edf0f96aafc6d6e0e9c8974de3b4b743b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-63b38aa472ebd954775ab790edb952c730ed1389.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\classes.jar"
@@ -121,11 +212,39 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-4fa3525d9ec550c8f11ce8e87217c91e2a28a99e.jar" />
     </item>
     <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-4d4976dfbdbdd1306ac4041f728512dd96a565ea.jar" />
+    </item>
+    <item
         jar="C:\Users\Stefan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-9d78c6d3ea92dd350baebee8cc852e1afd3df60c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-eaea52aeb5a3e5a8c50c55477c92ad12024d0fac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-fecf01c4bd6fa81b95f896c2f80046e8025a76a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-bd21c590a4af93ad712ab585cbce7ab0684871df.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\classes.jar"
@@ -149,6 +268,34 @@
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-2a56029ed1b31d9e582167f3f9ec48ba22e18e53.jar" />
     </item>
     <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-24ad9b82c6f6f10b23935760050c9d81b3397417.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-f54c2e74e19335031c49b53baa64b8ed1a5b81cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-f270494422983aa93ddb3362f67f3b23ef44cd63.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-d1badfb20321338a5a44076f3454e095d5109a3d.jar" />
+    </item>
+    <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -161,6 +308,27 @@
         revision="22.0.1"
         sha1="565a01f90f1529f73362707c4c185d0623a68782">
         <dex dex="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\pre-dexed\debug\classes-8e5608f3286479d5cd541b5e64a7528cacc542ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-55cd4fb6bd84cbb016a1f8decc835cfadbed4ac8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-887b0bc2b095b4ee8620632792c7f4ed4973c953.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="C:\Users\Stefan\workspace\Android\BusApp_Admin\app\build\intermediates\pre-dexed\debug\classes-8d73e6453048ced188e3b30f471ef0142ab71373.jar" />
     </item>
     <item
         jar="C:\Users\Stefan\Downloads\GCMPushNotificationExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\classes.jar"

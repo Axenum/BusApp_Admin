@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.prgguru.example.HomeActivity" >
+    tools:context="com.allits.BusAdmin.HomeActivity" >
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -38,5 +38,12 @@
         android:id="@+id/lvtouren"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Log out"
+        android:id="@+id/btnlogout"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
