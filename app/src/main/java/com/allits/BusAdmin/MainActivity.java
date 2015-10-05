@@ -132,6 +132,7 @@ public class MainActivity extends Activity {
 		prgDialog.show();
 		params.put("regId", regId);
         params.put("username", emailID);
+        params.put("admin", "yes");
         Log.d("CheckID",emailID);
         Log.d("CheckID",regId);
 		// Make RESTful webservice call using AsyncHttpClient object

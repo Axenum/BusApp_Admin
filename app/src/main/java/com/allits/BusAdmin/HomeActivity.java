@@ -61,7 +61,7 @@ public class HomeActivity extends Activity {
 					"This device doesn't support Play services, App will not work normally",
 					Toast.LENGTH_LONG).show();
 		}
-		
+
 		usertitleET.setText("Hello " + eMailId + " !");
 		// When Message sent from Broadcase Receiver is not empty
 
@@ -187,6 +187,7 @@ public class HomeActivity extends Activity {
             JSONObject json;
 
             params = new ArrayList<>();
+            params.add(new BasicNameValuePair("admin", "yes"));
             params.add(new BasicNameValuePair("user", email));
 
             json = jParser.makeHttpRequest("http://allits.de/gcm/getTours.php", "POST", params);
@@ -206,10 +207,7 @@ public class HomeActivity extends Activity {
                     String tour = jsonObject.getString(TAG_TOUR);
                     String time = jsonObject.getString(TAG_TIME);
                     String date = jsonObject.getString(TAG_DATE);
-                    String ktime = jsonObject.getString(TAG_KTIME);
 
-
-                    long diffMin = TimeFunction.getTimeDiff(time, ktime);
 
 
 
@@ -217,7 +215,7 @@ public class HomeActivity extends Activity {
                     HashMap<String, String> map = new HashMap<>();
                     map.put(TAG_TOUR, tour);
                     map.put(TAG_DATE, date);
-                    map.put(TAG_KTIME, diffMin+":00");
+                    map.put(TAG_KTIME, time);
 
                     mToursList.add(map);
 

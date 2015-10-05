@@ -43,7 +43,7 @@ public class GCMIntentService extends IntentService {
 			} else if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE
 					.equals(messageType)) {
 
-                String[] data = {extras.getString("tour"),extras.getString("datum"),extras.getString("time"),extras.getString("ktime")};
+                String[] data = {extras.getString("Header"),extras.getString("message")};
 
                 sendNotification(data);
 			}
@@ -52,13 +52,9 @@ public class GCMIntentService extends IntentService {
 	}
 
 	private void sendNotification(String[] msg) {
-	        Intent resultIntent = new Intent(this, AlertActivity.class);
-            resultIntent.putExtra("tour", msg[0]);
-            resultIntent.putExtra("datum", msg[1]);
-
-            long timediff = TimeFunction.getTimeDiff(msg[2],msg[3]);
-            resultIntent.putExtra("ktime", timediff+"");
-
+	        Intent resultIntent = new Intent(this, HomeActivity.class);
+            resultIntent.putExtra("Header", msg[0]);
+            resultIntent.putExtra("message", msg[1]);
 
 	        PendingIntent resultPendingIntent = PendingIntent.getActivity(this, 0,
 	                resultIntent, PendingIntent.FLAG_CANCEL_CURRENT);
@@ -70,8 +66,8 @@ public class GCMIntentService extends IntentService {
 	        mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
 	        mNotifyBuilder = new NotificationCompat.Builder(this)
-	                .setContentTitle("Alert")
-	                .setContentText("You've received new message.")
+	                .setContentTitle(msg[0])
+	                .setContentText(msg[1])
 	                .setSmallIcon(R.drawable.ic_launcher);
 	        // Set pending intent
 	        mNotifyBuilder.setContentIntent(resultPendingIntent);
@@ -90,7 +86,7 @@ public class GCMIntentService extends IntentService {
 
 	        mNotifyBuilder.setDefaults(defaults);
 	        // Set the content for Notification
-	        mNotifyBuilder.setContentText("New message from Server");
+	        mNotifyBuilder.setContentText(msg[0]);
 	        // Set autocancel
 	        mNotifyBuilder.setAutoCancel(true);
 	        // Post a notification

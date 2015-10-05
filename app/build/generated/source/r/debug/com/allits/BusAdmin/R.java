@@ -1712,7 +1712,7 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020057;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f09005d;
+        public static final int RelativeLayout1=0x7f090069;
         public static final int action_bar=0x7f090046;
         public static final int action_bar_activity_content=0x7f090000;
         public static final int action_bar_container=0x7f090045;
@@ -1733,7 +1733,6 @@ containing a value of this type.
         public static final int beginning=0x7f090014;
         public static final int book_now=0x7f09002c;
         public static final int btnlogout=0x7f090057;
-        public static final int btnsubmit=0x7f09005c;
         public static final int buyButton=0x7f090029;
         public static final int buy_now=0x7f09002d;
         public static final int buy_with_google=0x7f09002e;
@@ -1760,10 +1759,14 @@ containing a value of this type.
         public static final int icon=0x7f09003b;
         public static final int ifRoom=0x7f09001e;
         public static final int image=0x7f090038;
-        public static final int imageView=0x7f090059;
         public static final int linearLayout=0x7f090054;
         public static final int listMode=0x7f090009;
         public static final int list_item=0x7f09003a;
+        public static final int ll1=0x7f09005a;
+        public static final int ll2=0x7f09005d;
+        public static final int ll3=0x7f090060;
+        public static final int ll4=0x7f090063;
+        public static final int ll5=0x7f090066;
         public static final int lvtouren=0x7f090056;
         public static final int match_parent=0x7f09002b;
         public static final int middle=0x7f090016;
@@ -1798,12 +1801,20 @@ containing a value of this type.
         public static final int submit_area=0x7f090051;
         public static final int tabMode=0x7f09000b;
         public static final int terrain=0x7f09001b;
+        public static final int textView=0x7f090059;
+        public static final int textView2=0x7f09005b;
+        public static final int textView3=0x7f09005e;
+        public static final int textView4=0x7f090064;
+        public static final int textView41=0x7f090061;
+        public static final int textView5=0x7f090067;
         public static final int title=0x7f09003c;
-        public static final int txtalert=0x7f09005b;
-        public static final int txtdate=0x7f09005f;
-        public static final int txtktime=0x7f090060;
-        public static final int txtmsg=0x7f09005a;
-        public static final int txttour=0x7f09005e;
+        public static final int txtdate=0x7f09006a;
+        public static final int txtdatum=0x7f090062;
+        public static final int txtfahrer=0x7f09005f;
+        public static final int txtktime=0x7f09006b;
+        public static final int txtkzeit=0x7f090068;
+        public static final int txttour=0x7f09005c;
+        public static final int txtzeit=0x7f090065;
         public static final int up=0x7f090008;
         public static final int useLogo=0x7f090012;
         public static final int usertitle=0x7f090055;
@@ -1840,7 +1851,7 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int activity_home=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int alert=0x7f030019;
+        public static final int latetours=0x7f030019;
         public static final int simple_list_item_1=0x7f03001a;
         public static final int single_item=0x7f03001b;
         public static final int support_simple_spinner_dropdown_item=0x7f03001c;
